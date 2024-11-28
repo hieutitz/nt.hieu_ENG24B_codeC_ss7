@@ -6,7 +6,7 @@ int main() {
     int array[n];
     for (int i = 0; i < n; i++) {
         printf("Nhap phan tu thu %d (so le): ", i + 1);
-        while (1) {
+        while {
             scanf("%d", &array[i]);
             if (array[i] % 2 != 0) {
                 break;
